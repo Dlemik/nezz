@@ -1,0 +1,134 @@
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+}
+
+.container {
+    width: 750px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+.result-box {
+    text-align: center;
+    background-color: #5a3df9;
+    color: #fff;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+
+.score-circle {
+    background-color: #4925cf;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.score {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.total {
+    opacity: 0.7;
+}
+
+.feedback {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.description {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+/* Summary Box */
+.summary-box {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.summary-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.category-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.reaction {
+    background-color: #fff6f5;
+    color: #f1616a;
+}
+
+.memory {
+    background-color: #fffbf2;
+    color: #f7b431;
+}
+
+.verbal {
+    background-color: #f2fbfa;
+    color: #2aa98b;
+}
+
+.visual {
+    background-color: #f3f3fd;
+    color: #3945e5;
+}
+
+.category-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.category-score {
+    font-size: 18px;
+    color: #9f9f9f;
+}
+
+.continue-button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #303b59;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 100%;
+}
